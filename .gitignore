@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# Build / distribution artifacts
+parish-site.zip
+
+# Editor / tooling
+.claude/
+.vscode/
+
+# Loose working source assets (originals live in site/images/)
+/Pastor Ayodeji Obajolu.jpeg
+/Services_information.jpeg

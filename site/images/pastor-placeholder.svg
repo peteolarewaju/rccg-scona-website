@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#3c5a94"/>
+      <stop offset="60%" stop-color="#1f2f52"/>
+      <stop offset="100%" stop-color="#16223d"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="185" r="70" fill="#2a3d6b"/>
+  <circle cx="200" cy="160" r="34" fill="#c98a2d"/>
+  <path d="M140 260 q60 -50 120 0 l0 40 q-60 30 -120 0 z" fill="#c98a2d"/>
+  <text x="200" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ffffff">Pastor Ayodeji Obajolu</text>
+  <text x="200" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#e3aa4f">RESIDENT PASTOR</text>
+  <text x="200" y="440" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8fa0c4">Replace with images/pastor.jpg</text>
+</svg>
