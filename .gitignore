@@ -8,6 +8,9 @@ parish-site.zip
 .claude/
 .vscode/
 
+# Session transcript (shareable working log, not part of the site)
+session.md
+
 # Loose working source assets (originals live in site/images/)
 /Pastor Ayodeji Obajolu.jpeg
 /Services_information.jpeg
