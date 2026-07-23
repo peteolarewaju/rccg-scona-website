@@ -1,7 +1,25 @@
 # Netlify configuration for the parish site.
-# With this file present, `netlify deploy --prod` publishes the right folders
-# without needing --dir / --functions flags.
+#
+# IMPORTANT: the website is NOT at the root of this repo — it lives in site/.
+# These settings tell Netlify that. They are applied automatically when the
+# repo is connected to Netlify as a Git deploy (the recommended setup), and
+# when deploying from this folder with the Netlify CLI.
+#
+# They are NOT applied if someone drags the repo folder onto Netlify Drop —
+# that publishes whatever folder is dropped, which is why dropping the repo
+# root produces a "Page not found" site. See DEPLOYMENT.md.
 
 [build]
+  # Folder containing the actual website (index.html lives here).
   publish = "site"
+
+  # Serverless function that feeds the Watch page its recent service videos.
   functions = "netlify/functions"
+
+  # Nothing to compile — this is plain HTML/CSS/JS.
+  command = ""
+
+[build.environment]
+  # The function uses ESM + global fetch, which need Node 18 or newer.
+  # Pinning this avoids "works on one account, fails on another" surprises.
+  NODE_VERSION = "20"

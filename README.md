@@ -7,6 +7,10 @@ on Netlify. Everything the browser serves lives in the [`site/`](site/) folder.
 
 **Live demo:** https://rccg-scona-preview.netlify.app
 
+> **Deploying this?** The website lives in the **`site/`** folder, not at the repo root —
+> Netlify's **publish directory must be `site`**, or every page returns "Page not found".
+> See **[DEPLOYMENT.md](DEPLOYMENT.md)** for the full setup and handover guide.
+
 ## Highlights
 
 - **Responsive, theme-consistent design** styled after the parent church's national brand
